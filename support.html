@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Feedglot support, troubleshooting, and contact information.">
+  <title>Feedglot — Support</title>
+  <style>
+    :root {
+      --bg: #f6f7f9;
+      --card: #ffffff;
+      --ink: #1c1e21;
+      --muted: #5f6368;
+      --line: #e4e6ea;
+      --accent: #2563eb;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font: 16px/1.7 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", "Helvetica Neue", sans-serif;
+    }
+    .wrap { max-width: 720px; margin: 0 auto; padding: 48px 24px 96px; }
+    header { margin-bottom: 40px; }
+    h1 { font-size: 28px; margin: 0 0 8px; }
+    p.sub { color: var(--muted); margin: 0; }
+    nav { display: flex; flex-wrap: wrap; gap: 16px; margin: 24px 0 32px; }
+    a { color: var(--accent); }
+    nav a { text-decoration: none; font-weight: 500; }
+    nav a:hover, a:hover { text-decoration: underline; }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      padding: 28px;
+      margin-bottom: 24px;
+    }
+    h2 { font-size: 21px; margin: 0 0 14px; }
+    h3 { font-size: 17px; margin: 24px 0 8px; }
+    p, li { color: var(--ink); }
+    ul, ol { padding-left: 22px; }
+    li { margin: 6px 0; }
+    .muted { color: var(--muted); font-size: 14px; }
+    .contact {
+      display: inline-block;
+      margin-top: 6px;
+      padding: 10px 16px;
+      border-radius: 10px;
+      background: var(--accent);
+      color: #ffffff;
+      font-weight: 600;
+      text-decoration: none;
+    }
+    .contact:hover { text-decoration: none; opacity: 0.9; }
+    footer { margin-top: 48px; text-align: center; color: var(--muted); font-size: 14px; }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #111315;
+        --card: #1c1f22;
+        --ink: #f2f3f5;
+        --muted: #a8adb4;
+        --line: #30343a;
+        --accent: #6ba2ff;
+      }
+      .contact { color: #111315; }
+    }
+  </style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Feedglot Support</h1>
+    <p class="sub">Help and contact information / 帮助与联系信息</p>
+    <nav aria-label="Page navigation">
+      <a href="#zh-Hans">简体中文</a>
+      <a href="#english">English</a>
+      <a href="legal.html#privacy">Privacy Policy</a>
+      <a href="legal.html#terms">Terms of Use</a>
+    </nav>
+  </header>
+
+  <section id="zh-Hans" class="card" lang="zh-Hans">
+    <h2>Feedglot 技术支持</h2>
+    <p class="muted">最后更新：2026 年 9 月 6 日</p>
+
+    <p>如果你在使用 Feedglot 时遇到问题，请通过电子邮件联系我们。</p>
+    <a class="contact" href="mailto:skyuehu@gmail.com?subject=Feedglot%20Support">联系支持</a>
+
+    <h3>反馈问题时</h3>
+    <p>为了帮助我们更快定位问题，请在邮件中提供：</p>
+    <ul>
+      <li>设备型号、系统版本以及 Feedglot 版本和 Build 号；</li>
+      <li>问题发生前的操作步骤、预期结果和实际结果；</li>
+      <li>必要时附上截图或录屏；</li>
+      <li>如果问题与同步、刷新、翻译或购买状态有关，请在 Feedglot 的“设置 → 支持”中导出诊断日志并作为附件发送。</li>
+    </ul>
+    <p>请勿在邮件或截图中包含 API 密钥、密码等敏感信息。</p>
+
+    <h3>iCloud 同步</h3>
+    <p>请确认设备已经登录 iCloud，并已允许 Feedglot 使用 iCloud。你可以在“设置 → 支持 → iCloud 状态”中查看同步状态并执行“立即同步”。如果设备之间的数据持续不一致，请先导出诊断日志，再使用“修复同步”。</p>
+
+    <h3>订阅没有更新</h3>
+    <p>请先手动刷新，并确认设备网络正常、订阅源仍可访问。自动刷新会在 App 运行期间执行前台任务，并在 App 启动或返回前台且已到刷新时间时执行补偿刷新；iOS 和 macOS 也可能根据系统调度执行后台刷新。</p>
+
+    <h3>翻译不可用</h3>
+    <p>使用 Apple 本地翻译时，请确认目标语言模型已经下载。使用 DeepSeek 时，请检查 API 密钥和账户余额，并使用设置中的“测试连接”确认服务可用。</p>
+
+    <h3>Feedglot Pro</h3>
+    <p>购买状态由 Apple 管理，并与设备上当前“媒体与购买项目”使用的 Apple 账户关联。重新安装后，Feedglot 会自动读取该账户有效的购买权益。</p>
+  </section>
+
+  <section id="english" class="card" lang="en">
+    <h2>Feedglot Support</h2>
+    <p class="muted">Last updated: September 6, 2026</p>
+
+    <p>If you need help with Feedglot, contact us by email.</p>
+    <a class="contact" href="mailto:skyuehu@gmail.com?subject=Feedglot%20Support">Contact Support</a>
+
+    <h3>Reporting an Issue</h3>
+    <p>To help us investigate, please include:</p>
+    <ul>
+      <li>Your device model, OS version, and Feedglot version and build number.</li>
+      <li>The steps leading to the issue, the expected result, and what actually happened.</li>
+      <li>A screenshot or screen recording when helpful.</li>
+      <li>For sync, refresh, translation, or purchase issues, export the diagnostic log from Feedglot under Settings → Support and attach it to your message.</li>
+    </ul>
+    <p>Do not include API keys, passwords, or other sensitive information in your message or screenshots.</p>
+
+    <h3>iCloud Sync</h3>
+    <p>Make sure you are signed in to iCloud and that Feedglot is allowed to use iCloud. Check Settings → Support → iCloud Status and try Sync Now. If your devices remain inconsistent, export diagnostics before using Repair Sync.</p>
+
+    <h3>Feeds Are Not Updating</h3>
+    <p>Try a manual refresh, then confirm that your network connection and the feed itself are available. Automatic refresh runs while the app is active and performs a catch-up refresh when the app launches or returns to the foreground after the selected interval has elapsed. iOS and macOS may also schedule background refreshes when permitted by the system.</p>
+
+    <h3>Translation Is Unavailable</h3>
+    <p>For Apple on-device translation, make sure the required language model is downloaded. For DeepSeek, verify your API key and account balance, then use Test Connection in Feedglot settings.</p>
+
+    <h3>Feedglot Pro</h3>
+    <p>Purchases are managed by Apple and are associated with the Apple Account currently used for Media &amp; Purchases on the device. After reinstalling Feedglot, the app automatically reads any valid entitlement for that account.</p>
+  </section>
+
+  <footer>
+    <a href="legal.html#privacy">Privacy Policy</a>
+    &nbsp;·&nbsp;
+    <a href="legal.html#terms">Terms of Use</a>
+    <br>
+    © 2026 Feedglot. All rights reserved.
+  </footer>
+</div>
+</body>
+</html>
