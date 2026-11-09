@@ -62,9 +62,10 @@ nav a[aria-current="page"] { text-decoration: underline; text-underline-offset: 
 }
 .plans thead th { vertical-align: top; background: #e8f4ff; }
 .plans thead th:first-child { width: 46%; }
-.plans thead span, .plans thead small { display: block; }
-.plans thead small { font-weight: 400; color: var(--muted); }
-.plans .plan-price { font-size: 23px; color: #176fae; }
+.plans tfoot span, .plans tfoot small { display: block; }
+.plans tfoot small { font-weight: 400; color: var(--muted); }
+.plans tfoot th, .plans tfoot td { background: #e8f4ff; vertical-align: top; }
+.plans .plan-price { font-size: 23px; font-weight: 700; color: #176fae; }
 .plans tbody th { font-weight: 500; }
 .plans td, .plan-note { color: var(--muted); }
 .plan-note { font-size: 13px; line-height: 1.6; }
